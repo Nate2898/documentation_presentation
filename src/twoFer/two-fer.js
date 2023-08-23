@@ -8,3 +8,6 @@
  * @param {paramType} paramName - description
  * @returns {returnType} description
  */
+function twoFor(nameInput = "you" ) {
+    return `One for ${nameInput}, one for me.`;
+}
